@@ -1,0 +1,87 @@
+.btn{
+	margin: 1rem;
+	background-color: #eb4555;
+}
+
+.navbar{
+	background-color: #333;
+	margin: 0;
+}
+
+.location{
+	color: #555;
+	background-color: white;
+	padding-bottom: 0.4rem;
+}
+
+.modal-content{
+	background-color: #FF6EC7;
+}
+
+.modal-bodyMain{
+	padding: 4rem;
+	font-size: 5rem;
+}
+
+.title{
+	padding: 3rem;
+}
+
+.mainTitle{
+	text-align: center;
+	color: #555;
+}
+
+#subBod{
+	background-color: rgba(255,110,199, 0.8);
+}
+
+.eachArt{
+	border-bottom: solid;
+	border-color: #49fb35;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding-bottom: 2rem;
+}
+
+.artBtn{
+	float: right;
+}
+
+.artLink{
+	font-size: 16px;
+}
+
+.modal-title{
+	text-align: center;
+}
+
+#saveBod{
+	background-color: rgba(255,110,199, 0.8);
+}
+
+#noteInput{
+	height: 10rem;
+	width: 40rem;
+}
+
+#savedNotes{
+	margin-bottom: 4rem;
+}
+
+#inputForm{
+	border-top: solid;
+	border-color: #49fb35;
+	padding-top: 1rem;
+}
+
+.notes{
+	padding: 2rem;
+	border-bottom: dashed;
+	border-color: #49fb35;
+}
+
+.xBtn{
+	float: right;
+	margin: 0;
+}

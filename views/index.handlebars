@@ -1,0 +1,21 @@
+{{#each found}}
+<!-- for each article -->
+<div class="container" id="saveBod">
+	<div>
+		<div class="eachArt">
+			<h3>
+				{{this.headline}}
+				<span>
+					<button class="btn artBtn delArt" data-id="{{this._id}}">
+						Delete Article
+					</button>
+					<button class="btn artBtn noteModal" data-id="{{this._id}}">
+						Add Notes
+					</button>
+				</span>
+			</h3>
+			<a class="artLink" href="{{this.url}}">Link</a>
+		</div>
+	</div>
+</div>
+{{/each}}
